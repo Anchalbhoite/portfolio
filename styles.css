@@ -45,6 +45,9 @@ section {
     object-fit: cover; /* Maintain aspect ratio and cover the container */
     display: block;
 }
+.profile p{
+    flex: 1;
+}
 
 ul {
     list-style-type: none;
