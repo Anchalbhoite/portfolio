@@ -47,7 +47,7 @@ section {
     object-fit: cover; /* Maintain aspect ratio and cover the container */
     display: block;
     max-width: 50%; /* Adjust the maximum width of the image */
-    margin-right: 20px;
+    margin-left: 20px;
 }
 .profile p{
     flex: 1;
