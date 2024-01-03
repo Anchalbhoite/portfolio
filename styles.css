@@ -32,11 +32,11 @@ section {
 }
 
 img {
-    display: block;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 250px;
+      width: 100px; /* Adjust the width as needed */
+      height: 100px; /* Should be the same as the width for a square aspect ratio */
+      overflow: hidden;
+      border: 1px solid #000; /* Optional border */
+      position: relative;
     
 }
 
