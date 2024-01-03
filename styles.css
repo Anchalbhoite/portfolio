@@ -35,9 +35,6 @@ section {
       width: 100px; /* Adjust the width as needed */
       height: 100px; /* Should be the same as the width for a square aspect ratio */
       overflow: hidden;
-      display: flex; /* Use flexbox for easy alignment */
-      align-items: center;  
-      border: 1px solid #000; /* Optional border */
       position: relative;
     
 }
@@ -46,13 +43,8 @@ section {
     height: auto;
     object-fit: cover; /* Maintain aspect ratio and cover the container */
     display: block;
-    max-width: 50%; /* Adjust the maximum width of the image */
-    margin-left: 20px;
+   
 }
-.profile p{
-    flex: 1;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
