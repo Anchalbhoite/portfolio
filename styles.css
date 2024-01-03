@@ -31,13 +31,19 @@ section {
     border-radius: 5px;
 }
 
-img {
+.profile {
       width: 100px; /* Adjust the width as needed */
       height: 100px; /* Should be the same as the width for a square aspect ratio */
       overflow: hidden;
       border: 1px solid #000; /* Optional border */
       position: relative;
     
+}
+.profile img{
+    width: 100%; /* Make the image fill the container */
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block;
 }
 
 ul {
