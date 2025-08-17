@@ -321,4 +321,8 @@ textarea {
 .project-list i{
 	font-size:50px;
     margin-right:5px;
+	color: #ffbf35;
+	width: 70px;
+	float: left;
 }
+
