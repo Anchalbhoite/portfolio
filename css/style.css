@@ -318,3 +318,7 @@ textarea {
 	font-size: 15px;
 	line-height: 25px;
 }
+.project-list i{
+	font-size:50px;
+    margin-right:5px;
+}
